@@ -17,5 +17,5 @@
             </intent-filter>
         </activity>
     </application>
-    UploadAndroid/app/src/main/AndroidManifest.xml
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
