@@ -55,6 +55,7 @@ public class Myservlet extends HttpServlet {
 		PrintWriter out= response.getWriter();
 		out.println("editText="+new String(editText.getBytes("iso-8859-1"),"utf-8"));		
 		System.out.println("editText="+new String(editText.getBytes("iso-8859-1"),"utf-8"));
+		out.println(new String(editText.getBytes("iso-8859-1"),"utf-8"));
 	}
 
 	/**
