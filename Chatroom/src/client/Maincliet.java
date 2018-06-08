@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Maincliet{
     public static void main(String []args){
-        Date date = new Date();
+
         try {
             BufferedWriter bw;
             BufferedReader br;
@@ -35,8 +35,9 @@ public class Maincliet{
                                     System.out.println(line);
                                     接收文字，目前无法并行
                                 }*/
+                                Date date = new Date();
                                 String x = xy.next();
-                                String str = name+date.toString()+":"+x;
+                                String str = name+" "+date.toString()+":"+x;
                                 s.getOutputStream().write(str.getBytes());
                                 if (x.equals("esc")){
                                     break;
